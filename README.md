@@ -1,7 +1,7 @@
 
 # Simple Web Designs
 
-![[Rishu is Hero ](https://github.com/rishu541/02-Learning-Web-Development/blob/master/ReadMe%20file%20Resouce/createbyrishu.png)](https://github.com/rishu541)
+![Rishu is Hero ](https://github.com/rishu541/02-Learning-Web-Development/blob/master/ReadMe%20file%20Resouce/createbyrishu.png)
 
 ## This is a collection of Simple Web Designs.
 
