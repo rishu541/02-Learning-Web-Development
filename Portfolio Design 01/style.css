@@ -88,7 +88,7 @@ ul li i {
   z-index: 1;
   border-radius: 50%;
   background-color: white;
-  transition: 0.2s;
+  transition: 0.5s;
   transition-delay: 0.5ms;
   opacity: 0.4;
 }
