@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="contentBox">
+        <h1>Image Modal Box</h1>
+        <p>This is a Simple Image Modal build with pure <b>Vanilla JS</b>.</p>
+      </div>
+      <div class="imgBox" id="myImg">
+        <img
+          src="https://images.unsplash.com/photo-1636038301178-0534cabba3db?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODQyMzk1NQ&ixlib=rb-1.2.1&q=85"
+          alt="Areial View of Sea"
+          id="RouteImage"
+        />
+      </div>
+      <div class="modal" id="myModal">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="modal-content">
+          <img
+            src="https://images.unsplash.com/photo-1636038301178-0534cabba3db?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODQyMzk1NQ&ixlib=rb-1.2.1&q=85"
+            class="image-contnet"
+            id="myModalImg"
+          />
+          <span class="caption">Sea Areial View</span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
