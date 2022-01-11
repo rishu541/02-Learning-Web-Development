@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Product Sans;
+}
+body {
+  position: relative;
+}
+.wrapper {
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+}
+.section {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+}
+.main-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.touch {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  margin-top: 100px;
+  text-align: center;
+}
+.header h1 {
+  padding: 10px 0;
+}
+.sub-header {
+  padding-top: 50px;
+}
+.sub-header p {
+  padding-top: 12px;
+  color: #777;
+}
+.contact_details {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+  padding-top: 10px;
+  float: left;
+}
+
+.contact i {
+  padding: 18px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #f37f29;
+  margin-right: 16px;
+  box-shadow: inset 3px 2px 4px rgb(255 255 255 / 70%),
+    inset -2px -2px 6px rgb(0 0 0 / 6%), inset -5px -6px 24px rgb(248 0 0 / 11%),
+    inset 20px 21px 34px rgb(255 132 79 / 20%);
+  background-color: #f37f29;
+  background: linear-gradient(
+      137.56deg,
+      #ffffff 2.14%,
+      rgba(245, 245, 245, 0) 102.34%
+    ),
+    linear-gradient(
+      136.02deg,
+      rgba(255, 132, 79, 0.1) 0%,
+      rgba(248, 0, 0, 0.1) 91.62%
+    ),
+    #f2f2f2;
+}
+.contact span {
+  background: -webkit-linear-gradient(100deg, #f80000, #ff844f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Product Sans Medium;
+}
+.contact .box ion-icon {
+  padding: 10px 20px;
+}
+.side-bar {
+  height: 95vh;
+  width: 24%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  border-radius: 2rem;   
+  background: url(../images/contact.png);
+  top: 2.5vh;
+  right: 20px;
+  bottom: 2.5vh;
+}
+.side-bar .cross {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  color: white;
+}
+.heading {
+  position: absolute;
+  transform: rotate(-90deg);
+  opacity: 0.8;
+  font-size: 80;
+  right: 20px;
+  bottom: 40%;
+  color: white;
+}
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.content-box {
+  height: 90%;
+  width: 95%;
+  background: linear-gradient(-45deg, red, orange);
+  border-radius: 1rem;
+}
+.line {
+  height: 1px;
+  width: 40%;
+  background: rgb(230, 230, 230);
+  margin-top: 80px;
+}
+.follow-box {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.follow h1 {
+  padding: 30px 0;
+}
+.follow-icons i {
+  padding: 24px;
+  margin: 0 8px;
+  font-size: 24px;
+  border-radius: 50%;
+  /* background: linear-gradient(  100deg, #f80000, #ff844f); */
+  color: white;
+  background-color: #ff844f;
+}
+.form-box {
+  justify-content: center;
+  align-items: center;
+}
+.follow-box .form {
+  flex-direction: column;
+}
+.form form {
+  width: 100%;
+  margin-top: 30px;
+}
+form label {
+  display: block;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+form label i {
+  padding-right: 10px;
+  font-weight: bolder;
+}
+form .field {
+  height: 38px;
+  width: 100%;
+  border: none;
+  background: #f5f2fc;
+  border-radius: 6px;
+}
+textarea {
+  display: block;
+  background-color: #f5f2fc;
+  border: none;
+  border-radius: 6px;
+  resize: none;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  background: linear-gradient(100deg, #f80000, #ff844f);
+  height: 38px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer .box {
+  height: 80%;
+  width: 80%;
+  background: linear-gradient(120.25deg, #f5c20b 1.66%, #fe511c 142.29%);
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.love,
+.credits {
+  color: white;
+}
+.footer .box i {
+  color: #f80000;
+}
