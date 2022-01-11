@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 9aadd432735cf465ee0923529097b8f00847f9c1
+
 # Simple Web Designs
 
 ![Rishu is Hero ](https://github.com/rishu541/02-Learning-Web-Development/blob/master/ReadMe%20file%20Resouce/createbyrishu.png)
@@ -16,9 +14,4 @@ These all are created while practicing Web Development. All the designs are begi
 - Either Choose Clone or Download the Zip
 - and you are ready to go
 
-<<<<<<< HEAD
-# Thank you
-=======
-Thank you
-=======
->>>>>>> 9aadd432735cf465ee0923529097b8f00847f9c1
+
