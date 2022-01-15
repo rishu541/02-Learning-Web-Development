@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parallax Scrolling Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Jungli.</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <section class="main">
+      <h2 id="text"><span>It's time for a new </span><br />Adventure</h2>
+      <img src="./images/bird1.png" id="bird1" alt="" />
+      <img src="./images/bird2.png" id="bird2" alt="" />
+      <img src="./images/forest.png" id="forest" alt="" />
+      <a href="" class="btn" id="btn">Explore</a>
+      <img src="./images/rocks.png" id="rocks" alt="" />
+      <img src="./images/water.png" id="water" alt="" />
+    </section>
+    <div class="sec">
+      <h2>Parllax Scrolling Effect</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, laborum
+        delectus error illum consequuntur sit aspernatur porro reiciendis
+        obcaecati iste doloribus minima aut tempore ut dicta ducimus molestias
+        doloremque odit at? Perspiciatis, architecto repellat officiis qui nihil
+        exercitationem voluptatem illo explicabo cumque amet quae corrupti optio
+        quam unde eos, placeat doloremque rerum mollitia ullam? Iusto deleniti
+        culpa inventore consequuntur beatae dicta, eos vitae tempora repellendus
+        rerum, repellat dignissimos tenetur ullam aut, dolore odit neque.
+        Repellendus nulla deserunt nisi error quasi sit voluptatum perferendis
+        illum earum praesentium. <br /><br />
+        Atque dolor sit qui. Aut incidunt magni optio odit, provident aliquid at
+        quam aliquam maiores pariatur error expedita nemo animi. Minus quasi
+        debitis deleniti dolorem sapiente sit eius! Nulla beatae dolores ipsum
+        quibusdam fugiat nam itaque temporibus perspiciatis, illum eveniet error
+        cupiditate iure praesentium nihil labore fuga vero, asperiores explicabo
+        pariatur nisi quisquam deleniti eaque? Tempora quisquam cupiditate
+        aliquid veniam tenetur optio impedit eveniet quis officia,<br />
+        <br />
+        nemo voluptas facilis dolores rerum quae nobis accusamus repudiandae ad,
+        nesciunt soluta deserunt hic. Quos, dignissimos voluptatibus nihil sint
+        aspernatur repellat quas, nesciunt soluta omnis saepe minima iure? Error
+        beatae, modi sapiente vero necessitatibus omnis quam deserunt, odio hic
+        reprehenderit iste ab, accusantium nesciunt doloribus sint rem
+        voluptatibus eligendi officiis? Ea vitae cupiditate tempora sapiente
+        iure reprehenderit perspiciatis accusamus odio repellat! Hic, nisi
+        eaque! Mollitia ratione esse iure saepe quaerat quidem architecto quo ex
+        iste dolorum! Debitis est dolorem tenetur neque incidunt officia quam.
+        Ad tempora itaque laborum quasi mollitia error cupiditate, facere
+        similique, aut consectetur magni reiciendis eius amet nam eveniet vero
+        ratione perspiciatis doloremque corporis, expedita optio non nostrum
+        accusamus deserunt? Illo, reprehenderit placeat? Ea corrupti quos alias
+        natus nobis eaque nisi debitis? Reprehenderit officia dignissimos
+        assumenda sed ipsa id quisquam, exercitationem in. Quaerat, assumenda
+        omnis. Dolorum suscipit praesentium asperiores temporibus pariatur
+        repellat est hic amet.
+      </p>
+    </div>
+    <script>
+      let text = document.getElementById('text');
+      let bird1 = document.getElementById('bird1');
+      let bird2 = document.getElementById('bird2');
+      let forest = document.getElementById('forest');
+      let water = document.getElementById('water');
+      let rocks = document.getElementById('rocks');
+      let btn = document.getElementById('btn');
+
+      window.addEventListener('scroll', () => {
+        let value = window.scrollY;
+
+        text.style.top = 30 + value * -0.5 + '%';
+        bird1.style.top = value * -1.5 + 'px';
+        bird1.style.left = value * 2 + 'px';
+
+        bird2.style.top = value * -1.5 + 'px';
+        bird2.style.left = value * -5 + 'px';
+
+        btn.style.marginTop = value * 1.5 + 'px';
+        rocks.style.top = value * -0.12 + 'px';
+        forest.style.top = value * 0.25 + 'px';
+      });
+    </script>
+  </body>
+</html>
